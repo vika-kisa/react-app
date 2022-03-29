@@ -1,11 +1,9 @@
 import React from 'react';
-
-import Header from './Header';
-import Main from './Main';
+import {Header , Main} from "./components";
 
 
 
-function App() {
+export const App = () => {
   return (
     <><Header />
     <Main/>
@@ -15,4 +13,3 @@ function App() {
   );
 }
 
-export default App;

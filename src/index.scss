@@ -25,16 +25,15 @@ $containerWidth: 1440px;
   font-family: 'Montserrat', sans-serif;
 }
 
-.main-title {
+.main__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
   color: #ffffff;
-  width: 419px;
 }
 
-.main-subTitle {
+.main__subTitle {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -78,7 +77,7 @@ $containerWidth: 1440px;
     }
   }
 
-  .orange--button {
+  .button_orange {
     background: #ff7b47;
     width: 185px;
     border: none;
@@ -101,7 +100,7 @@ $containerWidth: 1440px;
       gap: 21px;
       margin-left: 560px;
 
-      .navigation-item {
+      .navigation__item {
         color: white;
         opacity: 0.8;
         cursor: pointer;
@@ -136,13 +135,9 @@ $containerWidth: 1440px;
       }
     }
 
-    .icons-items {
+    .icons__items {
       gap: 22px;
       display: flex;
-    }
-
-    .searchPic {
-      background-color: none;
     }
   }
 
@@ -182,14 +177,14 @@ $containerWidth: 1440px;
   background-color: #252b42;
   height: 131px;
 
-  .cards-items {
+  .cards__items {
     display: flex;
     margin-left: 197px;
     margin-top: -111px;
     position: absolute;
     gap: 30px;
 
-    .card-item {
+    .card__item {
       background-color: white;
       justify-content: space-between;
       width: 328px;
@@ -213,7 +208,7 @@ $containerWidth: 1440px;
       }
     }
 
-    .blue--card {
+    .card_blue {
       background-color: #0d5c63;
 
       .title,
@@ -224,7 +219,7 @@ $containerWidth: 1440px;
   }
 }
 
-.client-matters {
+.client__matters {
   height: 526px;
   background-color: #252b42;
   display: flex;
@@ -232,7 +227,7 @@ $containerWidth: 1440px;
   flex-direction: column;
   padding: 90px;
 
-  .cards-matters {
+  .cards__matters {
     display: flex;
     margin-top: 50px;
     gap: 38px;
@@ -261,6 +256,54 @@ $containerWidth: 1440px;
         text-align: center;
         letter-spacing: 0.1px;
         color: #737373;
+      }
+    }
+  }
+}
+
+.practice__advice {
+  height: 699px;
+  background-color: #252b42;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 125px;
+
+  .practice__cards {
+    display: flex;
+    margin-top: 45px;
+    gap: 40px;
+
+    .practice__card {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      width: 230px;
+      height: 341px;
+
+      .practice__text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 37px 66px 36px 29px;
+      }
+
+      .title__card {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #252b42;
+      }
+
+      .subTitle__card {
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        color: #737373;
+      }
+
+      .practice__img {
       }
     }
   }
